@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a6390d7752.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/main.css">
+    <title>Suggest Activity</title>
+</head>
+<body>
+
+        <div id="menu-bar">
+            <div id="menu" onclick="onClickMenu()">
+               <div id="bar1" class="bar"></div>
+               <div id="bar2" class="bar"></div>
+               <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li ><a href="../index.html"><i class="fas fa-home"> Home</i></a></li>
+                <li><a href="suggesAct.html"></a><i class="fas fa-basketball-ball"> Suggest an Activity</i></a></li>
+                <li><a href="sponsor.html"><i class="fas fa-heart"> Sponsor Us</i> </a></li>
+                <li><a href="community.html"><i class="fas fa-globe-americas"> Community</i></a></li>
+                <li id="dark-mode-change"><i class="far fa-moon"> Toggle Theme</i></li>
+            </ul>
+        </div>
+
+    <div class="nav-web">
+        <ul >
+            <li class="nav-item"><a href="../index.html"><i class="fas fa-home"> Home</i></a></li>
+            <li class="nav-item"><a href="suggesAct.html"><i class="fas fa-basketball-ball"> Suggest an activity</i></a></li>
+        </ul>
+    </div>
+    <span id="change-mode" class="buttons buttontheme"><a href=""><i class="far fa-sun"></i></a></span>
+    <span class="buttons buttonload"><a href="sponsor.html"><i class="fas fa-redo-alt"></i></a></span>
+
+
+    <form id="form-box" action="">
+       <h3><i class="fas fa-basketball-ball"></i> Suggest an Activity</h3>
+
+       <label for="mailbox" class="style-title">Email (We won´t spam you)</label><br>
+       <input id="mailbox"   class="style-Level" name="mailbox" type="email" placeholder="Enter your Email-address">
+
+       <label for="titleActivity" class="style-title">Title</label><br>
+       <input id="titleActivity"  class="style-Level" name="titleActivity" type="text" placeholder="Enter the title of the activity">
+
+       <label for="description" class="style-title">Description</label><br>
+       <textarea name="text-box" id="text-box" class="style-Level" cols="30" rows="10" placeholder="Enter the description of the activity"></textarea>
+
+       <button id="bottonsend" type="submit"  class="send-button">Submit</button>
+    </form>
+
+    <script src="../assets/script.js"></script>
+    <script src="../assets/darkmode.js"></script>
+    <script src="../assets/formData.js"></script>
+</body>
+</html>
