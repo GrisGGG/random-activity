@@ -137,6 +137,9 @@ body{
 .fa-sun, .fa-redo-alt{
     color: #fff;
 }
+.fa-moon{
+    font-weight: 900;
+}
 #getAct{
     cursor: pointer;
 }
