@@ -4,7 +4,7 @@ getAct.addEventListener('click', activities);
 
 const cajita = document.getElementById('cajaActividad');
 function activities() {
-  const url = 'http://www.boredapi.com/api/activity?type=recreational';
+  const url = '//www.boredapi.com/api/activity?type=recreational';
   fetch(url)
     .then(res => {
       return res.json()
